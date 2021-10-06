@@ -33,6 +33,22 @@ Enjoy :-)
 
 ![Step5](https://user-images.githubusercontent.com/82355033/136165592-53749120-44e6-4f7a-9b4d-f0c549a649ba.jpg)
 
+Nota Bene: Running the three first files is only for the initialisation ; as long as you didn't change your setting conditions (camera position, video projector position or luminosity condition), you just need to run the last file "4-SimpleBillard.py"
+
 ## Debug Mode
 
-If you didn't have the material to test, you may use the small "debug-mode", that will be using a video file to simulate the video input. To launch that mode, you just have to rename the video "NOdebug.mp4" to "debug.mp4". Then, you will be able tu use the files 2, 3 and 4 (the one become meaningless because this is not a camera input but a file input) 
+If you didn't have the material to test, you may use the small "debug-mode", that will be using a video file to simulate the video input. To launch that mode, you just have to rename the video "NOdebug.mp4" to "debug.mp4". Then, you will be able tu use the files 2, 3 and 4 (the one become meaningless because this is not a camera input but a file input)
+
+## Customiztion
+
+### Background
+
+You can customize the background by simply change the image "FondDVIC.png" for another.
+
+## Save Parameters
+
+There is 3 importants paramters that are save:
+
++ The information about what camera to use is save in *camera.json*
++ The information about the different perspective deformations for the camera and the video projector are store in the file *data.json*
++ The image of the table board clear of balls is save the image file *background.jpg*
