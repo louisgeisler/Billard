@@ -12,9 +12,9 @@ Your video projector must project on the billard board
 
 # How does it work ?
 
-There are four files numbered from 1 to 4:
+Before all, you must be sure that what is on the screen of your computer is also projected on the billard board. To do that, you must change your display setting to duplicate your screen on all other screen (in this case, a video projector).
 
-**0.** Before all, you must be sure that what is on the screen of your computer is also projected on the billard board. To do that, you must change your display setting to duplicate your screen on all other screen (in this case, a video projector).
+There are four files numbered from 1 to 4:
 
 **1.** The first file "1-Camera.py" will let you choose which camera you want to use to interact with the pool table.
 
