@@ -4,6 +4,8 @@ The Interative Billard will project useful informations (such as speed, accelera
 
 https://user-images.githubusercontent.com/82355033/136162758-bdefb44f-0264-434b-a80b-5c885dc3d04b.mp4
 
+This interactive billiards aims to explore how new pedagogical platforms can be designed thanks to tangible media and artificial intelligence. Neuroscience research raise the importance of live experiences in cognitive process in particular during the learning process. In this game, players discover and learn physic and math concepts according to their progress in the pool game. Based on artificial intelligence technics, this augmented billiards provides guidance and information such as dynamic equation resolutions or geometric projections to the players thanks to a video-projector. We hope that such kind of learning platforms will be broadly used in future education systems.
+
 ## Requirement
 
 You need to have at least a **Billard**, a **Webcam** and a **Video Projector**
