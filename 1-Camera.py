@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import json
-from scipy import optimize
 
 ############### Trouver Caméra ###############
 

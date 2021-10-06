@@ -3,6 +3,7 @@ import cv2
 from itertools import permutations  
 import json
 import pickle
+import os
 
 margeX=400
 margeY=300
@@ -52,6 +53,8 @@ def get_frame():
     cap = cv2.VideoCapture(camera_number)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
+    if os.path.isfile('debug.mp4'):
+        cap = cv2.VideoCapture('debug.mp4')
     
     ok, frame = cap.read()
 

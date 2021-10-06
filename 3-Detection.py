@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 from itertools import permutations  
 import json
-from scipy import optimize
 import os
 
 
