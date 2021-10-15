@@ -35,7 +35,7 @@ Enjoy :-)
 
 ![Step5](https://user-images.githubusercontent.com/82355033/136165592-53749120-44e6-4f7a-9b4d-f0c549a649ba.jpg)
 
-Nota Bene: Running the three first files is only for the initialisation ; as long as you didn't change your setting conditions (camera position, video projector position or luminosity condition), you just need to run the last file "4-SimpleBillard.py"
+**Nota Bene**: Running the three first files is only for the initialisation ; as long as you didn't change your setting conditions (camera position, video projector position or luminosity condition), you just need to run the last file "4-SimpleBillard.py"
 
 ## Debug Mode
 
