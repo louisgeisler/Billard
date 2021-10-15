@@ -41,7 +41,7 @@ Nota Bene: Running the three first files is only for the initialisation ; as lon
 
 If you didn't have the material to test, you may use the small "debug-mode", that will be using a video file to simulate the video input. To launch that mode, you just have to rename the video "NOdebug.mp4" to "debug.mp4". Then, you will be able tu use the files 2, 3 and 4 (the one become meaningless because this is not a camera input but a file input)
 
-## Customiztion
+## Customization
 
 ### Background
 
