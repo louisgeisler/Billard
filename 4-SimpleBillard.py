@@ -1,22 +1,14 @@
 import numpy as np
 import cv2
-from itertools import permutations  
 import json
-from sklearn.linear_model import LinearRegression
 from math import *
 from time import *
-import scipy.optimize
 import time
 import matplotlib.pyplot as plt
-import imageio
 import pymunk
-import pymunk.pygame_util
-import pygame
-import pandas as pd
-from collections import Counter
+#import pymunk.pygame_util
 import numpy.polynomial.polynomial as poly
 from random import random
-import sys
 import os.path
 
 ############### Setting Importation ###############
@@ -463,7 +455,13 @@ while True:
         
         if np.corrcoef(lX, lY)[0, 1]**2 > 0.75:
             [vx,vy,x,y] = cv2.fitLine(c, cv2.DIST_L2, 0, 0.01, 0.01)
-            cv2.line(newframe, (x+vx*-1920, y+vy*-1920), (x+vx*1920, y+vy*1920), (255, 255, 255), 15)
+            cv2.line(
+                newframe,
+                tuple(map(int, (x+vx*-1920, y+vy*-1920))),
+                tuple(map(int, (x+vx*1920, y+vy*1920))),
+                (255, 255, 255),
+                15
+            )
             #p = np.polyfit(lX, lY, 1)
             #cv2.line(nextframe, (0, int(np.polyval(p, 0))), (1920, int(np.polyval(p, 1920))), 150, 20)
             continue

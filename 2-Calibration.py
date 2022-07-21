@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 from itertools import permutations  
 import json
-import pickle
 import os
 
 margeX=400
@@ -254,9 +253,9 @@ l_circle_test=np.float32(l_point_test)
 
 calibration_test2=np.zeros((1080,1920,3), np.uint8)
 for i,p1 in enumerate(l_circle_screen):
-    p1=tuple(p1)
+    p1=tuple(map(int, p1))
     for p2 in l_circle_screen[i+1:]:
-        p2=tuple(p2)
+        p2=tuple(map(int, p2))
         cv2.line(calibration_test2,p1,p2,(255,255,255),3)
     cv2.circle(calibration_test2,p1,40,(255,255,255),-1)
 
