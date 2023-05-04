@@ -1,4 +1,5 @@
 #captures the billiard table background
+#remove everything from the table
 
 #import modules
 import numpy as np
